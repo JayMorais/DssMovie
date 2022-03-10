@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 :root{
     --bg-gray:#ddd;
+    --text-gray:#4a4a4a;
     --color-primary:#4D41C0;
     --white:#fff;
+    
 }
 *{
     font-family:'Open Sans',sans-serif;
@@ -27,11 +29,11 @@ nav{
 }
 nav h1{
     font-size: 24 px;
-    font-weight: 700;
+    font-weight: 700px;
 }
 nav a{
-    font-size: 12 ;
-    font-weight: 400;
+    font-size: 12px ;
+    font-weight: 400px;
 }
 a, a:hover{
     text-decoration: none;
@@ -45,3 +47,32 @@ a, a:hover{
 .container-contact img{
     margin-right: 10px;
 }
+#card-list{
+    padding: 40px 0;
+}
+.movie-card{
+    width: 360px;
+    
+    
+}
+.movie-card img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.movie-card-description{
+    background-color: var(--white);
+    padding: 10px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius:  0 0 8px 8px;
+}
+.movie-card-description h3{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 25px;
+
+}
+.btn-avaliar{
+    width: 180px;height: 40px; background-color: var(--color-primary);color: var(--white);font-size:14px ;font-weight: 700;display: flex;align-items: center;justify-content: center;border-radius: 4px;}
